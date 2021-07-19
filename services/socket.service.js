@@ -10,20 +10,45 @@ function connectSockets(http, session) {
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
         })
-        socket.on('chat topic', topic => {
-            if (socket.myTopic === topic) return;
-            if (socket.myTopic) {
-                socket.leave(socket.myTopic)
+        socket.on('board changed', newBoardId => {
+            if (socket.boardId === newBoardId) return;
+            if (socket.boardId) {
+                socket.leave(socket.boardId)
             }
-            socket.join(topic)
-            socket.myTopic = topic
+            socket.boardId = newBoardId
+            socket.join(socket.boardId)
+            console.log('socket.boardId',socket.boardId);
         })
-        socket.on('chat newMsg', msg => {
+        socket.on('send card', card => {
+            console.log('card');
+            // card = {card, cIdx , gIdx}
             // emits to all sockets:
             // gIo.emit('chat addMsg', msg)
             // emits only to sockets in the same room
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
+            gIo.to(socket.boardId).emit('get card', card)
         })
+        socket.on('send groups', groups => {
+            console.log('groups');
+            // group = {groups}
+            // emits only to sockets in the same room
+            gIo.to(socket.boardId).emit('get groups', groups)
+        })
+        socket.on('send title', title => {
+            console.log('title');
+            // emits only to sockets in the same room
+            gIo.to(socket.boardId).emit('get title', title)
+        })
+        socket.on('send style', style => {
+            console.log('style');
+            // emits only to sockets in the same room
+            gIo.to(socket.boardId).emit('get style', style)
+        })
+        socket.on('send members', members => {
+            console.log('members');
+            // emits only to sockets in the same room
+            gIo.to(socket.boardId).emit('get members', members)
+        })
+
         socket.on('user-watch', userId => {
             socket.join('watching:' + userId)
         })
