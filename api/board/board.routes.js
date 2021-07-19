@@ -9,7 +9,7 @@ const router = express.Router()
 
 router.get('/', log, getBoards)
 router.post('/', requireAuth, addBoard)
-router.post('/', requireAuth, updateBoard)
+router.put('/', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
 
 module.exports = router

@@ -37,7 +37,7 @@ app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
-app.use('/api/review', boardRoutes)
+app.use('/api/board', boardRoutes)
 connectSockets(http, session)
 
 app.get('/**', (req, res) => {
