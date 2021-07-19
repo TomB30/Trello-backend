@@ -6,9 +6,7 @@ var gIo = null
 function connectSockets(http, session) {
     gIo = require('socket.io')(http);
     gIo.on('connection', socket => {
-        console.log('New socket', socket.id)
         socket.on('disconnect', socket => {
-            console.log('Someone disconnected')
         })
         socket.on('board changed', newBoardId => {
             if (socket.boardId === newBoardId) return;
@@ -17,35 +15,20 @@ function connectSockets(http, session) {
             }
             socket.boardId = newBoardId
             socket.join(socket.boardId)
-            console.log('socket.boardId',socket.boardId);
         })
         socket.on('send card', card => {
-            console.log('card');
-            // card = {card, cIdx , gIdx}
-            // emits to all sockets:
-            // gIo.emit('chat addMsg', msg)
-            // emits only to sockets in the same room
             gIo.to(socket.boardId).emit('get card', card)
         })
         socket.on('send groups', groups => {
-            console.log('groups');
-            // group = {groups}
-            // emits only to sockets in the same room
             gIo.to(socket.boardId).emit('get groups', groups)
         })
         socket.on('send title', title => {
-            console.log('title');
-            // emits only to sockets in the same room
             gIo.to(socket.boardId).emit('get title', title)
         })
         socket.on('send style', style => {
-            console.log('style');
-            // emits only to sockets in the same room
             gIo.to(socket.boardId).emit('get style', style)
         })
         socket.on('send members', members => {
-            console.log('members');
-            // emits only to sockets in the same room
             gIo.to(socket.boardId).emit('get members', members)
         })
 
