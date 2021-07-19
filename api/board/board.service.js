@@ -1,6 +1,8 @@
 const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
+const logger = require('../../services/logger.service')
+
 
 async function query(filterBy = {}) {
     try {
@@ -22,9 +24,11 @@ async function remove(boardId) {
         // const { userId, isAdmin } = store
         const collection = await dbService.getCollection('board')
         // remove only if user is owner/admin
-        const query = { _id: ObjectId(boardId) }
-        if (!isAdmin) query.byUserId = ObjectId(userId)
-        await collection.deleteOne(query)
+        // const query = { _id: ObjectId(boardId) }
+        // if (!isAdmin) query.byUserId = ObjectId(userId)
+        // await collection.deleteOne(query)
+        await collection.deleteOne({ '_id': ObjectId(boardId) })
+
     } catch (err) {
         logger.error(`cannot remove board ${boardId}`, err)
         throw err
@@ -35,7 +39,8 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const boardToAdd = board;
-        boardToAdd.byUserId = ObjectId(review.byUserId)
+        console.log('boardToAdd',boardToAdd);
+        // boardToAdd.createdBy = ObjectId()
         const collection = await dbService.getCollection('board')
         await collection.insertOne(boardToAdd)
         return boardToAdd;
@@ -48,7 +53,9 @@ async function add(board) {
 async function update(board){
     try{
         const collection = await dbService.getCollection('board')
-        await collection.updateOne(board._id) // need to check _______________________________________ //
+        boardToSave = board
+        boardToSave._id = ObjectId(board._id)
+        const savedBoard = await collection.updateOne({ '_id': ObjectId(board._id) }, { $set: board }) // need to check _______________________________________ //
         return board
     } catch(err) {
         logger.error(`can not update board` , err)
