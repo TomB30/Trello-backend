@@ -17,19 +17,19 @@ function connectSockets(http, session) {
             socket.join(socket.boardId)
         })
         socket.on('send card', card => {
-            gIo.to(socket.boardId).emit('get card', card)
+            gIo.to(socket.boardId).emit('card updated', card)
         })
         socket.on('send groups', groups => {
-            gIo.to(socket.boardId).emit('get groups', groups)
+            gIo.to(socket.boardId).emit('groups updated', groups)
         })
         socket.on('send title', title => {
-            gIo.to(socket.boardId).emit('get title', title)
+            gIo.to(socket.boardId).emit('title updated', title)
         })
         socket.on('send style', style => {
-            gIo.to(socket.boardId).emit('get style', style)
+            gIo.to(socket.boardId).emit('style updated', style)
         })
         socket.on('send members', members => {
-            gIo.to(socket.boardId).emit('get members', members)
+            gIo.to(socket.boardId).emit('members updated', members)
         })
 
         socket.on('user-watch', userId => {
