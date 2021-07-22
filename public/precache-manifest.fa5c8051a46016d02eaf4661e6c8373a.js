@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9817f1e7136a1e33ccf0",
-    "url": "/css/app.11e78a48.css"
+    "revision": "ac3c61dbfc8982d39ad6",
+    "url": "/css/app.d94fc1b3.css"
   },
   {
     "revision": "89d2c415a5e8ff9860da",
@@ -32,8 +32,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/background-choose-photos.5b1e4ecf.jpg"
   },
   {
+    "revision": "2a5b88ea30c39679cdeca96bc0b2ac44",
+    "url": "/img/business-large.2a5b88ea.jpg"
+  },
+  {
+    "revision": "0ac5443b037105fb1a2b007c764ec482",
+    "url": "/img/business-small.0ac5443b.jpg"
+  },
+  {
     "revision": "54b9520b827f1fc18fa146296ca04113",
     "url": "/img/check.54b9520b.png"
+  },
+  {
+    "revision": "a0f82d0730505afc4454e3ae5618cc7f",
+    "url": "/img/design-large.a0f82d07.jpg"
+  },
+  {
+    "revision": "f9feb1d18ce8887891dbdc79e65f13de",
+    "url": "/img/design-small.f9feb1d1.jpg"
+  },
+  {
+    "revision": "69b26c46be50c9a6228a89503632cea9",
+    "url": "/img/education-large.69b26c46.jpg"
+  },
+  {
+    "revision": "f4e7057c5a4ca286cd679ec4ac9ce73d",
+    "url": "/img/education-small.f4e7057c.jpg"
   },
   {
     "revision": "93e8a44792c475653fc7914ca49713df",
@@ -68,12 +92,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/loader.516fef1b.svg"
   },
   {
-    "revision": "ea93f7d97d215952cbf7b9ace95b75e0",
+    "revision": "57c356d04745f2cb6f9158410f9f85df",
+    "url": "/img/marketing-large.57c356d0.jpg"
+  },
+  {
+    "revision": "e89f09ccd743ff731df08a2d11486fc7",
+    "url": "/img/marketing-small.e89f09cc.jpg"
+  },
+  {
+    "revision": "04863edc5c0a51e7e6cd78f3ae3b031b",
     "url": "/index.html"
   },
   {
-    "revision": "9817f1e7136a1e33ccf0",
-    "url": "/js/app.fa64e013.js"
+    "revision": "ac3c61dbfc8982d39ad6",
+    "url": "/js/app.686670bd.js"
   },
   {
     "revision": "89d2c415a5e8ff9860da",
