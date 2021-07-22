@@ -4,9 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "server:prod": "set NODE_ENV=production&&nodemon server.js",
-        "server:dev": "set NODE_ENV=development&&nodemon server.js",
+        "prod": "set NODE_ENV=production&&nodemon server.js",
+        "dev": "set NODE_ENV=development&&nodemon server.js",
         "start": "node server.js"
     },
     "repository": {
