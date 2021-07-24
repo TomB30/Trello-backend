@@ -1748,3 +1748,6 @@
 24/07/2021, 19:45:56 - ERROR - cannot update user 60f8713a9016d0a0cc16ff20 | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
 24/07/2021, 19:45:56 - ERROR - Failed to update user | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
 >>>>>>> 4f1470b21607b7172917f86b7af098d093dfbb24
+25.7.2021, 0:27:43 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+25.7.2021, 0:27:44 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+25.7.2021, 0:27:46 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
