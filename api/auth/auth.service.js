@@ -11,8 +11,6 @@ async function login(username, password) {
 	if (!match) return Promise.reject('Invalid username or password');
 
 	delete user.password;
-	user.mentions = [];
-	user.imgUrl = 'http://some-img.jpg';
 	user._id = user._id.toString();
 	console.log('~ user', user);
 	return user;
