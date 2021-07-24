@@ -1699,6 +1699,7 @@
 22.7.2021, 11:44:19 - INFO - Server is running on port: 3030 
 >>>>>>> ce9100b45be226f90d515c7a3faecdeabc54e4bc
 24/07/2021, 18:47:09 - INFO - Server is running on port: 3030 
+<<<<<<< HEAD
 24.7.2021, 18:48:47 - DEBUG - auth.service - login with username: omri (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
 24.7.2021, 18:48:49 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
 24.7.2021, 18:49:17 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
@@ -1720,3 +1721,30 @@
 24.7.2021, 20:03:14 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
 24.7.2021, 20:03:15 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
 24.7.2021, 20:03:23 - DEBUG - auth.service - login with username: omri (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+=======
+24/07/2021, 18:51:13 - INFO - Server is running on port: 3030 
+24/07/2021, 19:01:36 - INFO - Server is running on port: 3030 
+24/07/2021, 19:07:15 - INFO - Server is running on port: 3030 
+24/07/2021, 19:09:07 - INFO - Server is running on port: 3030 
+24/07/2021, 19:22:56 - DEBUG - auth.service - login with username: omri (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:24:26 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:24:27 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:25:23 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:25:34 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:25:50 - DEBUG - auth.service - login with username: omri (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:21 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:22 - INFO - Req from: Omri Baram (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:27 - DEBUG - auth.service - login with username: tom (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:28 - INFO - Req from: Tom Bechar (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:28 - INFO - Req from: Tom Bechar (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:34 - DEBUG - auth.service - login with username: tom (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:26:46 - INFO - Req from: Tom Bechar (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:27:09 - INFO - Req from: Tom Bechar (sid: bMtLNGhyyBDrpIk36aGn30XOdkpp9qTw)
+24/07/2021, 19:28:19 - INFO - Server is running on port: 3030 
+24/07/2021, 19:28:54 - INFO - Server is running on port: 3030 
+24/07/2021, 19:29:37 - INFO - Server is running on port: 3030 
+24/07/2021, 19:37:52 - INFO - Server is running on port: 3030 
+24/07/2021, 19:42:31 - INFO - Server is running on port: 3030 
+24/07/2021, 19:45:56 - ERROR - cannot update user 60f8713a9016d0a0cc16ff20 | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
+24/07/2021, 19:45:56 - ERROR - Failed to update user | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
+>>>>>>> 4f1470b21607b7172917f86b7af098d093dfbb24
