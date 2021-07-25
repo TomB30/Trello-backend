@@ -12,7 +12,6 @@ async function login(username, password) {
 
 	delete user.password;
 	user._id = user._id.toString();
-	console.log('~ user', user);
 	return user;
 }
 

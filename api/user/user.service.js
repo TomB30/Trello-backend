@@ -9,7 +9,20 @@ module.exports = {
     getByUsername,
     remove,
     update,
-    add
+    addMention
+}
+
+async function addMention(mention) {
+    try {
+        const collection = await dbService.getCollection('user')
+        var user = await collection.findOneAndUpdate({ "_id": ObjectId(mention.userId) },
+            { $push: { 'mentions': mention } }
+        )
+        return user.value
+    } catch (err) {
+        logger.error('cannot find users', err)
+        throw err
+    }
 }
 
 async function query(filterBy = {}) {

@@ -2,6 +2,15 @@ const userService = require('./user.service')
 const socketService = require('../../services/socket.service')
 const logger = require('../../services/logger.service')
 
+async function addMention(req,res){
+    try {
+        const updatedUser = await userService.addMention(req.body)
+        res.send(updatedUser)
+    } catch(err){
+        console.log('err',err);
+    }
+}
+
 async function getUser(req, res) {
     try {
         const user = await userService.getById(req.params.id)
@@ -52,5 +61,6 @@ module.exports = {
     getUser,
     getUsers,
     deleteUser,
-    updateUser
+    updateUser,
+    addMention,
 }

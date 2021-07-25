@@ -39,7 +39,6 @@ async function remove(boardId) {
 async function add(board) {
     try {
         const boardToAdd = board;
-        console.log('boardToAdd',boardToAdd);
         // boardToAdd.createdBy = ObjectId()
         const collection = await dbService.getCollection('board')
         await collection.insertOne(boardToAdd)

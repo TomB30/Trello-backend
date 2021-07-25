@@ -39,11 +39,9 @@ function connectSockets(http, session) {
             if(socket.userId) socket.leave(socket.userId)
             socket.userId = userId
             socket.join(userId)
-            console.log('watching ', userId );
         })
-        socket.on('send user', user =>{
-            console.log('updating user',user);
-            gIo.to(user._id).emit('user updated', user)
+        socket.on('send mention', mention =>{
+            gIo.to(mention.userId).emit('mention updated', mention)
         })
         socket.on('unset-user-socket', () => {
             delete socket.userId
