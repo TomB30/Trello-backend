@@ -2013,6 +2013,7 @@
 25.7.2021, 9:13:57 - INFO - Server is running on port: 3030 
 25.7.2021, 9:44:57 - INFO - Server is running on port: 3030 
 25.7.2021, 9:47:20 - INFO - Server is running on port: 3030 
+<<<<<<< HEAD
 >>>>>>> 978b0ef63f1de795c5aab314110f21f92aff91e7
 25/07/2021, 9:50:56 - INFO - Server is running on port: 3030 
 25/07/2021, 13:16:01 - INFO - Server is running on port: 3030 
@@ -2049,3 +2050,6 @@
 25/07/2021, 13:25:44 - INFO - Req from: Jeff Bezos (sid: cv_r8RlGQBtw15B8iVJqJZ8nQbm5qnc9)
 25/07/2021, 13:25:45 - INFO - Req from: Jeff Bezos (sid: cv_r8RlGQBtw15B8iVJqJZ8nQbm5qnc9)
 25/07/2021, 13:25:46 - INFO - Req from: Jeff Bezos (sid: cv_r8RlGQBtw15B8iVJqJZ8nQbm5qnc9)
+=======
+25.7.2021, 10:46:25 - INFO - Server is running on port: 3030 
+>>>>>>> 4bc9be418269f9bd8cbde8cb71719849f72b4b3c
