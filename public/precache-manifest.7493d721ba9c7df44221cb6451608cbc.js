@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98c0cc1054dbc634a387",
-    "url": "/css/app.5782fb32.css"
+    "revision": "4bb1944628b1f88b570b",
+    "url": "/css/app.d934c137.css"
   },
   {
     "revision": "ad29ec1006248ca27afc",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/emp4.1690a3c0.jpg"
   },
   {
+    "revision": "ce1a274931a3ae5079d4b9a9d0d4eb3a",
+    "url": "/img/favicon.svg"
+  },
+  {
     "revision": "b976f1249c708acd92b18b869da2f060",
     "url": "/img/homepage-2-img.b976f124.jpg"
   },
@@ -100,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/marketing-small.e89f09cc.jpg"
   },
   {
-    "revision": "35d9336dc163b8835e705efc8da7b2aa",
+    "revision": "a4a6c6ac5d56f2f2161336639c078810",
     "url": "/index.html"
   },
   {
-    "revision": "98c0cc1054dbc634a387",
-    "url": "/js/app.0874eb32.js"
+    "revision": "4bb1944628b1f88b570b",
+    "url": "/js/app.e87bd5a6.js"
   },
   {
     "revision": "a5652dc9a258fcba57f0",
