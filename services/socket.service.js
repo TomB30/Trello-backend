@@ -31,6 +31,9 @@ function connectSockets(http, session) {
         socket.on('send members', members => {
             gIo.to(socket.boardId).emit('members updated', members)
         })
+        socket.on('send activities', activities => {
+            gIo.to(socket.boardId).emit('activities updated', activities)
+        })
 
         socket.on('user-watch', userId => {
             if(socket.userId) socket.leave(socket.userId)
