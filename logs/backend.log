@@ -1699,6 +1699,29 @@
 22.7.2021, 11:44:19 - INFO - Server is running on port: 3030 
 >>>>>>> ce9100b45be226f90d515c7a3faecdeabc54e4bc
 24/07/2021, 18:47:09 - INFO - Server is running on port: 3030 
+<<<<<<< HEAD
+24.7.2021, 18:48:47 - DEBUG - auth.service - login with username: omri (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:48:49 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:49:17 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:49:17 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:49:19 - INFO - Req from: Omri Baram (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:49:27 - DEBUG - auth.service - login with username: omri (sid: _L7ecUIPi6sYWQbmKB_eqBcoLtWp35vm)
+24.7.2021, 18:51:23 - INFO - Server is running on port: 3030 
+24.7.2021, 18:52:16 - DEBUG - auth.service - login with username: omri (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 18:52:22 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 18:59:14 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 18:59:14 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 18:59:15 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 18:59:33 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 19:56:37 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:07 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:07 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:08 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:14 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:14 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:15 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+24.7.2021, 20:03:23 - DEBUG - auth.service - login with username: omri (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+=======
 24/07/2021, 18:51:13 - INFO - Server is running on port: 3030 
 24/07/2021, 19:01:36 - INFO - Server is running on port: 3030 
 24/07/2021, 19:07:15 - INFO - Server is running on port: 3030 
@@ -1724,6 +1747,7 @@
 24/07/2021, 19:42:31 - INFO - Server is running on port: 3030 
 24/07/2021, 19:45:56 - ERROR - cannot update user 60f8713a9016d0a0cc16ff20 | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
 24/07/2021, 19:45:56 - ERROR - Failed to update user | MongoNetworkError: connection 2 to 18.196.119.49:27017 closed (sid: h18B7p_jMsyuQ7JSOm7j0sk7bi76TUzg)
+<<<<<<< HEAD
 24/07/2021, 20:31:10 - INFO - Server is running on port: 3030 
 24/07/2021, 21:37:03 - DEBUG - auth.service - login with username: tom (sid: NogHsKSc_nNrighTVIeaSu-FhUaqOljl)
 24/07/2021, 21:39:09 - INFO - Req from: Tom Bechar (sid: NogHsKSc_nNrighTVIeaSu-FhUaqOljl)
@@ -1981,3 +2005,12 @@
 25/07/2021, 9:41:43 - DEBUG - auth.service - login with username: jeff (sid: 3X_ilqkrdY4AW7yyl0WjslQVs6CW-zUv)
 25/07/2021, 9:41:48 - INFO - Req from: Jeff Bezos (sid: 3X_ilqkrdY4AW7yyl0WjslQVs6CW-zUv)
 25/07/2021, 9:44:30 - INFO - Req from: Jeff Bezos (sid: 3X_ilqkrdY4AW7yyl0WjslQVs6CW-zUv)
+=======
+>>>>>>> 4f1470b21607b7172917f86b7af098d093dfbb24
+25.7.2021, 0:27:43 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+25.7.2021, 0:27:44 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+25.7.2021, 0:27:46 - INFO - Req from: Omri Baram (sid: gmSlTBoOe1YhknUAZau8D4jJ9qybGAK3)
+25.7.2021, 9:13:57 - INFO - Server is running on port: 3030 
+25.7.2021, 9:44:57 - INFO - Server is running on port: 3030 
+25.7.2021, 9:47:20 - INFO - Server is running on port: 3030 
+>>>>>>> 978b0ef63f1de795c5aab314110f21f92aff91e7

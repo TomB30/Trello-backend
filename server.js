@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const path = require('path')
 const expressSession = require('express-session')
+const bodyParser = require('body-parser')
 
 const app = express()
 const http = require('http').createServer(app)
@@ -13,7 +14,9 @@ const session = expressSession({
     saveUninitialized: true,
     cookie: { secure: false }
 })
-app.use(express.json())
+
+app.use(bodyParser.json({ limit: '50mb', extended: true }))
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }))
 app.use(session)
 
 if (process.env.NODE_ENV === 'production') {
@@ -29,7 +32,7 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const boardRoutes = require('./api/board/board.routes')
-const {connectSockets} = require('./services/socket.service')
+const { connectSockets } = require('./services/socket.service')
 
 
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
