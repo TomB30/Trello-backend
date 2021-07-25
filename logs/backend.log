@@ -2202,3 +2202,5 @@
 25/07/2021, 20:19:17 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: tnATMWC3GnLaDmoT3yAbJIKdXusmDPlm)
 25/07/2021, 20:31:51 - INFO - Server is running on port: 3030 
 25.7.2021, 21:16:47 - INFO - Server is running on port: 3030 
+25.7.2021, 22:19:48 - INFO - Server is running on port: 3030 
+25.7.2021, 22:32:22 - INFO - Server is running on port: 3030 

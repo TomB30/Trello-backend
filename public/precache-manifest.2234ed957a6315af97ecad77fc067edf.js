@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/emp4.1690a3c0.jpg"
   },
   {
-    "revision": "ce1a274931a3ae5079d4b9a9d0d4eb3a",
+    "revision": "ab1e1b52e920815ccbae7bcd8b7eb8d3",
     "url": "/img/favicon.svg"
   },
   {
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/marketing-small.e89f09cc.jpg"
   },
   {
-    "revision": "a4a6c6ac5d56f2f2161336639c078810",
+    "revision": "5c170379e3967b937bd0a4a470b19f2f",
     "url": "/index.html"
   },
   {
