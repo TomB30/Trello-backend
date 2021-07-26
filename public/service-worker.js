@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.4c800800c59157c4214d623ee64e4bb2.js"
+  "/precache-manifest.9836616899871f877a0838c00d33552d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "frontend"});
