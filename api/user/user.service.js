@@ -9,7 +9,8 @@ module.exports = {
     getByUsername,
     remove,
     update,
-    addMention
+    addMention,
+    add,
 }
 
 async function addMention(mention) {
