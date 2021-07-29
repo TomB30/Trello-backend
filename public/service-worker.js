@@ -14,15 +14,15 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-    "/precache-manifest.9836616899871f877a0838c00d33552d.js"
+  "/precache-manifest.9126051725e3c0002d4286cf3f1e30ff.js"
 );
 
-workbox.core.setCacheNameDetails({ prefix: "Trailing" });
+workbox.core.setCacheNameDetails({prefix: "frontend"});
 
 self.addEventListener('message', (event) => {
-    if (event.data && event.data.type === 'SKIP_WAITING') {
-        self.skipWaiting();
-    }
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 /**
